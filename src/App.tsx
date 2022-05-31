@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter';
+import Users from './components/Users';
 
 let student: string = '5';
 let age: number = 69;
@@ -39,6 +40,7 @@ function App() {
   return (
     <div className="App">
       <Counter></Counter>
+      <Users></Users>
     </div>
   );
 }
